@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>sharkchili-lib</artifactId>
+        <groupId>com.fishbyby.sharkchili</groupId>
+        <version>1.0.6-SNAPSHOT</version>
+        <relativePath>../sharkchili-lib/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>sharkchili-cache</artifactId>
+    <version>${project.parent.version}</version>
+    <packaging>jar</packaging>
+
+    <name>sharkchili-cache</name>
+    <description>Sharkchili-cache is a slight cache frame.</description>
+    <url>https://47.99.220.192:17214/home/git/repository/java/sharkchili/sharkchili-cache</url>
+
+    <dependencies>
+        <!--modules-->
+        <dependency>
+            <groupId>com.fishbyby.sharkchili</groupId>
+            <artifactId>sharkchili-container</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fishbyby.sharkchili</groupId>
+            <artifactId>sharkchili-util</artifactId>
+            <version>1.0.3-SNAPSHOT</version>
+        </dependency>
+        <!--others-->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
