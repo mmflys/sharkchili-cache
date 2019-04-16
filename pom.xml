@@ -28,7 +28,7 @@
         <dependency>
             <groupId>com.fishbyby.sharkchili</groupId>
             <artifactId>sharkchili-util</artifactId>
-            <version>1.0.3-SNAPSHOT</version>
+            <version>${project.parent.version}</version>
         </dependency>
         <!--others-->
         <dependency>
